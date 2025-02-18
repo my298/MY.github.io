@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格标签</title>
+</head>
+<body>
+    <!tr:行；td:列>
+    <table border="1">
+        <tr>
+            <td>姓名</td>
+            <td>语文</td>
+            <td>数学</td>
+            <td>英语</td>
+        </tr>
+        <tr>
+            <td>张三</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>李四</td>
+            <td>90</td>
+            <td>95</td>
+            <td>100</td>
+        </tr>
+    </table>
+    <br>
+    <!合并单元格
+    合并行：colspan
+    合并列：rowspan>
+    <table border="1">
+        <tr>
+            <td>姓名</td>
+            <td>语文</td>
+            <td>数学</td>
+            <td>英语</td>
+        </tr>
+        <tr>
+            <td>张三</td>
+            <td colspan="3">100</td>
+            
+        </tr>
+        <tr>
+            <td>李四</td>
+            <td>90</td>
+            <td>95</td>
+            <td>100</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+        <tr>
+            <td>姓名</td>
+            <td>语文</td>
+            <td>数学</td>
+            <td>英语</td>
+        </tr>
+        <tr>
+            <td>张三</td>
+            <td>100</td>
+            <td>100</td>
+            <td rowspan="2">100</td>
+        </tr>
+        <tr>
+            <td>李四</td>
+            <td>90</td>
+            <td>95</td>
+        </tr>
+    </table>
+</body>
+</html>
